@@ -1,0 +1,35 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:89vh;
+    background: url('https://i.im.ge/2024/10/06/kizz6C.team1.jpeg') no-repeat center center/cover;
+  }
+  
+  .hero {
+    text-align: center;
+ 
+  color: white; /* Text color */
+  font-weight: bold; /* Make the text bold */
+  padding: 5px 10px; /* Add some padding around the text */
+  border-radius: 5px; /* Optional: Rounded corners */
+  display: inline-block; /* Ensure the padding applies properly */
+    
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #21a1f1;
+  }
+  

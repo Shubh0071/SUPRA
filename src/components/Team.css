@@ -1,0 +1,38 @@
+.team {
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .team h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    
+       width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+  }
+  
+  .team-member p {
+    color: #777;
+  }
+  
